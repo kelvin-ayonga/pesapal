@@ -2,7 +2,7 @@
 
 namespace Kelvinlogic\Pesapal\OAuth;
 
-use Kelvinlogic\Pesapal\OAuth\Exceptions\OAuthException;
+use Kelvinlogic\Pesapal\Exceptions\OAuthException;
 
 
 /**

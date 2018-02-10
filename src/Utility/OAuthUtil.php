@@ -1,12 +1,12 @@
 <?php
 
-namespace Kelvinlogic\Pesapal\OAuth;
+namespace Kelvinlogic\Pesapal\Utility;
 
 
 /**
  * Class OAuthUtil
  *
- * @package Kelvinlogic\Pesapal\OAuth
+ * @package Kelvinlogic\Pesapal\Utility
  */
 class OAuthUtil
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kelvinlogic\Pesapal\OAuth;
+namespace Kelvinlogic\Pesapal\Hashing;
 
 
 use Kelvinlogic\Pesapal\Exceptions\OAuthException;
@@ -8,7 +8,7 @@ use Kelvinlogic\Pesapal\Exceptions\OAuthException;
 /**
  * Class OAuthSignatureMethod_RSA_SHA1
  *
- * @package Kelvinlogic\Pesapal\OAuth
+ * @package Kelvinlogic\Pesapal\Hashing
  */
 class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod
 {
@@ -39,7 +39,7 @@ class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod
     /**
      * @param $request
      *
-     * @throws \Kelvinlogic\Pesapal\OAuth\Exceptions\OAuthException
+     * @throws \Kelvinlogic\Pesapal\Exceptions\OAuthException
      */
     protected function fetch_private_cert(&$request)
     {

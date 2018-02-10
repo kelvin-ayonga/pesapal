@@ -1,12 +1,14 @@
 <?php
 
-namespace Kelvinlogic\Pesapal\OAuth;
+namespace Kelvinlogic\Pesapal\Hashing;
+
+use Kelvinlogic\Pesapal\Utility\OAuthUtil;
 
 
 /**
  * Class OAuthSignatureMethod_PLAINTEXT
  *
- * @package Kelvinlogic\Pesapal\OAuth
+ * @package Kelvinlogic\Pesapal\Hashing
  */
 class OAuthSignatureMethod_PLAINTEXT extends OAuthSignatureMethod
 {

@@ -1,12 +1,13 @@
 <?php
 
-namespace Kelvinlogic\Pesapal\OAuth;
+namespace Kelvinlogic\Pesapal\Hashing;
 
+use Kelvinlogic\Pesapal\Utility\OAuthUtil;
 
 /**
  * Class OAuthSignatureMethod_HMAC_SHA1
  *
- * @package Kelvinlogic\Pesapal\OAuth
+ * @package Kelvinlogic\Pesapal\Hashing
  */
 class OAuthSignatureMethod_HMAC_SHA1 extends OAuthSignatureMethod
 {

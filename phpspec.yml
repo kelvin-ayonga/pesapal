@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Kelvinlogic\Pesapal\Tests
+    psr4_prefix: Kelvinlogic\Pesapal\Tests
